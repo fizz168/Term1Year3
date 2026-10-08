@@ -1,0 +1,70 @@
+# =====================
+# Unity
+# =====================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Unity compiled/exported game output
+GameDevelopment/Week1/game/
+[Uu]ser[Ss]ettings/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.slnx
+*.csproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+MemoryCaptures/
+ExportedObj/
+*.cginc.meta
+*.compute.meta
+.vs/
+*.tmp
+*.bak
+
+# =====================
+# Dart / Flutter
+# =====================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+
+# =====================
+# VS Code
+# =====================
+.vscode/settings.json
+.vscode/launch.json
+
+# =====================
+# LibreOffice / Office temp files
+# =====================
+.~lock.*#
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
