@@ -10,6 +10,9 @@
 
 # Unity compiled/exported game output
 GameDevelopment/Week1/game/
+
+# Separate GitHub repos — tracked independently
+GameDevelopment/Week1/FallGuyClone/
 [Uu]ser[Ss]ettings/
 *.suo
 *.user
