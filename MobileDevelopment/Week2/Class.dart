@@ -1,4 +1,3 @@
-import 'dart:io';
 
 class Tree {
   // attribute (data)
@@ -6,6 +5,11 @@ class Tree {
 
   // constructor (to build your instance = object)
   Tree(this.size);
+  @override
+  String toString() {
+    return "Tree = $size";
+  }
+
 }
 
 class House {
@@ -18,5 +22,7 @@ class Door {}
 
 void main() {
   Tree t1 = Tree(1);
-  Tree t2 = Tree(1);
+  Tree t2 = Tree(2);
+  print(t2);
+  print(t1);
 }
