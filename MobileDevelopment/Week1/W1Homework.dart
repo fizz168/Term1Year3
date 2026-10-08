@@ -14,7 +14,7 @@ void main() {
     "Lina": 62,
     "Vanna": 39,
     "Mony": 85,
-  };  
+  };
   print(getPassedStudent(result));
 
   List<Map<String, Object>> students = [
@@ -28,11 +28,9 @@ void main() {
 
       for (var student in students) {
       if (student.containsKey(course)) {
-        // Cast the value to an int safely
         courseScore.add(student[course] as int);
       }
     }
-    // 3. Compute and display the average
     double average = computeAverage(courseScore);
     print('$course Average: ${average.toStringAsFixed(1)}');
   }
